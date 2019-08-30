@@ -18,4 +18,13 @@ This is a simple PHP script you can use to extract the videos of a specific YouT
 4. Generate an API key and copy it.
 5. Paste the API key into the script.
 
-##### Channel ID example: UCX6OQ3DkcsbYNE6H8uQQuVA (MrBeast)
+```php
+// API Key
+$API_Key = '___API___'; // Go to Google Developer Console and get an API key
+
+// Channel ID
+$channelId = '___CHANNEL_ID___'; // Channel ID you want to get videos of. Example: UCX6OQ3DkcsbYNE6H8uQQuVA (MrBeast)
+
+// Maximum videos you want to get
+$maxResults=1;
+```
